@@ -47,6 +47,6 @@ Current arbitrary choices are:
 
 - Vuex modules for store
 - Vue-axios for ajax requests
-- 'nr' as prefix for components
+- 'mv' as prefix for components
 
 These can be changed when the contributors reach a consensus.
