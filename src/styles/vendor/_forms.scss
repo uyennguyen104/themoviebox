@@ -1,0 +1,127 @@
+.el-radio-button {
+  margin-bottom: -2px;
+
+  &,
+  &.is-active {
+    .el-radio-button__inner {
+      font-size: $font-size-base;
+      color: $body-color;
+      background-color: transparent;
+      border: none;
+      border-left: none !important;
+      border-right: none !important;
+      border-bottom: 2px solid transparent;
+      border-color: transparent;
+      border-radius: 0;
+      padding: var(--content-padding-y) var(--content-padding-x);
+      box-shadow: none;
+    }
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    .el-radio-button__inner {
+      color: $primary;
+    }
+  }
+
+  &.is-active {
+    .el-radio-button__orig-radio:checked + .el-radio-button__inner,
+    .el-radio-button__inner {
+      color: $primary;
+      font-weight: $font-weight-bold;
+      border-bottom-color: $primary;
+    }
+  }
+}
+
+.el-dropdown {
+  vertical-align: middle;
+  color: $body-color;
+  font-size: $font-size-base;
+  padding: 0 var(--content-padding-x);
+  cursor: pointer;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $primary;
+  }
+}
+
+.el-dropdown-menu {
+  max-height: 265px;
+  overflow-y: auto;
+
+  .el-dropdown-menu__item {
+    padding: calc(0.5 * var(--content-padding-y)) var(--content-padding-x);
+    line-height: $line-height-base;
+    color: $body-color;
+    font-size: $font-size-base;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $primary;
+      background-color: transparent;
+    }
+  }
+}
+
+.el-rate {
+  .el-rate__item {
+    .el-rate__icon {
+      width: $icon-size;
+      height: $icon-size;
+      position: relative;
+
+      &:before {
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      &.el-icon-star-on {
+        &:before {
+          background: url('../assets/star.png') no-repeat 0 0;
+          background-size: contain;
+        }
+      }
+
+      &.el-icon-star-off {
+        &:before {
+          background: url('../assets/star-less.png') no-repeat 0 0;
+          background-size: contain;
+        }
+      }
+
+      .el-rate__decimal {
+        width: 100% !important;
+        height: 100%;
+
+        &:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: #1b1b1b url('../assets/start-half.png') no-repeat 0 0;
+          background-size: contain;
+        }
+      }
+    }
+  }
+
+  .el-rate__text {
+    font-size: $font-size-xs;
+    color: $white;
+    border: 1px solid $gray;
+    padding: 2px 4px;
+    border-radius: $border-radius-base;
+  }
+}

@@ -1,0 +1,56 @@
+// Color system
+
+$white: #fff;
+$black: #000;
+$primary: #ff0278;
+$secondary: #d8d8d8;
+
+$info: #5467E1;
+$success: #59D274;
+$warning: #FAB217;
+$danger: #F05757;
+
+$primary-lighten: #8597ED;
+
+$body-bg: #fff;
+$body-color: #868790;
+$gray: #494c61;
+$gray-1: #b6b7be;
+$gray-2: #f8f8f8;
+$text-muted: #c1c2c6;
+
+$divider-color: #e2e2e2;
+
+$link-color: $body-color;
+$link-decoration: none;
+$link-hover-color: $primary;
+$link-hover-decoration: none;
+
+$border-color: $divider-color;
+$border-radius-base: 2px;
+$border-radius-lg: 4px;
+$border-radius-sm: 2px;
+
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-family-monospace: Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1.4rem;
+$font-size-lg: 1.8rem;
+$font-size-md: 1.6rem;
+$font-size-sm: 1.3rem;
+$font-size-xs: 1.1rem;
+$font-size-h1: 3.0rem;
+$font-size-h2: 2.4rem;
+$font-size-h3: 2.1rem;
+
+$line-height-base: 1.4;
+
+$font-weight-base: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$icon-size: 20px;
+
+$tablet-width: 768px;
+$desktop-width: 1024px;

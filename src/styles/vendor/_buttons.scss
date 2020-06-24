@@ -1,0 +1,73 @@
+.el-button {
+  text-transform: uppercase;
+  border-radius: $border-radius-base;
+
+  & + .el-button {
+    margin-left: calc(0.5 * var(--grid-gutter));
+  }
+}
+
+.el-button--default {
+  & {
+    color: $body-color;
+    background-color: $gray-1;
+    border-color: $gray-1;
+
+    &:hover,
+    &:active {
+      background-color: darken($gray-1, 5%);
+      border-color: darken($gray-1, 5%);
+    }
+  }
+
+  &.is-plain {
+    color: $gray-1;
+    border-color: $gray-1;
+    background-color: transparent;
+
+    &:hover,
+    &:active {
+      color: darken($gray-1, 5%);
+      border-color: darken($gray-1, 5%);
+      background-color: transparent;
+    }
+  }
+}
+
+.el-button--primary {
+  & {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+
+    &:hover,
+    &:active {
+      background-color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+    }
+  }
+
+  &.is-plain {
+    color: $primary;
+    border-color: $primary;
+    background-color: transparent;
+
+    &:hover,
+    &:active {
+      color: darken($primary, 5%);
+      border-color: darken($primary, 5%);
+      background-color: transparent;
+    }
+  }
+}
+
+.el-button--text {
+  & {
+    color: $link-color;
+
+    &:hover,
+    &:active {
+      color: $link-hover-color;
+    }
+  }
+}
