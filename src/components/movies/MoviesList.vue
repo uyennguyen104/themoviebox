@@ -108,7 +108,7 @@ export default {
       if (!loadingIconEl) return;
       const isAtBottom = (window.innerHeight + window.scrollY) >= (loadingIconEl.$el.offsetTop + loadingIconEl.$el.offsetHeight);
       if (isAtBottom && !this.loadMoreDisabled) {
-        this.fetchMovies();
+        //this.fetchMovies();
       }
     },
   }

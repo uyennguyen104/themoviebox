@@ -20,8 +20,8 @@ Using VueJS as a library javascript, SCSS as a CSS preprocessor.
 
 ## Browsers support
 
-last 2 versions
-not ie <= 8
+- Browsers that with last 2 versions
+- Not ie <= 8
 
 ## Getting started
 
