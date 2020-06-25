@@ -68,14 +68,14 @@ export default {
   left: 0;
   width: 100%;
   background: linear-gradient(to top, $black 0%, $black 40%, transparent 100%);
-  padding: calc(1.5 * var(--grid-gutter)) var(--container-spacing-x);
+  padding: calc(2 * var(--grid-gutter)) var(--container-spacing-x);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: $gray-1;
 }
 .caption {
-  padding-bottom: calc(1.5 * var(--grid-gutter));
+  padding-bottom: calc(0.25 * var(--grid-gutter));
 
   .title {
     font-size: 2rem;
@@ -129,6 +129,7 @@ export default {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    padding: calc(1.5 * var(--grid-gutter)) var(--container-spacing-x);
   }
 }
 </style>

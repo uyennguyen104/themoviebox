@@ -56,7 +56,7 @@ export default {
 .homeBanners {
   .el-carousel__container {
     height: auto;
-    padding-bottom: 90%;
+    padding-bottom: 140%;
   }
   .el-carousel__indicator {
     padding-top: 2px;
@@ -75,6 +75,14 @@ export default {
   }
 }
 
+@media (min-width: $mobile-md-width) {
+  .homeBanners {
+    .el-carousel__container {
+      padding-bottom: 90%;
+    }
+  }
+}
+
 @media (min-width: $tablet-width) {
   .homeBanners {
     .el-carousel__container {
@@ -83,7 +91,7 @@ export default {
     .el-carousel__indicator {
       padding-top: var(--content-padding-y);
       padding-bottom: var(--content-padding-y);
-      }
+    }
   }
 }
 </style>

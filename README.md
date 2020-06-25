@@ -18,6 +18,10 @@ Using VueJS as a library javascript, SCSS as a CSS preprocessor.
 - lodash https://lodash.com/
 - date-fns https://date-fns.org/
 
+## Browsers support
+
+last 2 versions
+not ie <= 8
 
 ## Getting started
 

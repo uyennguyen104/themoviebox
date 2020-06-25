@@ -50,7 +50,7 @@ export default {
 
 @media (min-width: $tablet-width) {
   .list {
-    --card-min-width: 272px;
+    --card-min-width: 250px;
   }
 }
 </style>
